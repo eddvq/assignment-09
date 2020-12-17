@@ -88,3 +88,7 @@ input[type="submit"]:hover {
 .sauce-amount {
 	margin-top: 1rem;
 }
+
+#reduced {
+  margin-bottom: 1rem;
+}
