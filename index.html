@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Wishlist</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>My Favorite Pizza</h1>
+    <p>Pizza is the best food ever. Tell us what your favorite pie looks like!</p>
+    <form action="index.html" method="get">
+
+      <fieldset>
+        <legend>Crust</legend>
+        <h2>Tell us about this crust?</h2>
+        <p>What do a pizza and a home have in common? They both have a strong foundation! In a pizzas case it's the crust.</p>
+
+        <label>Regular
+          <input type="radio" name="crust-type" value="regular">
+        </label>
+
+        <label>Thin
+          <input type="radio" name="crust-type" value="thin">
+        </label>
+
+        <label>Stuffed
+          <input type="radio" name="crust-type" value="stuffed">
+        </label>
+
+        <label>Deep-dish
+          <input type="radio" name="crust-type" value="deep-dish">
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Size</legend>
+        <h2>Sharing is caring! Or is it?</h2>
+        <p>How big is this pie? It's okay if you don't share, we won't tell.</p>
+
+        <select name="pizza-size">
+          <option value="10">10"</option>
+          <option value="12">12"</option>
+          <option value="15">15"</option>
+        </select>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Sauce</legend>
+        <h2>Time for sauce.</h2>
+        <p>Are you classic marinara or something more daring?</p>
+
+        <label>Marinara
+          <input type="radio" name="crust-type" value="regular">
+        </label>
+
+        <label>Alfredo
+          <input type="radio" name="crust-type" value="thin">
+        </label>
+
+        <label>Garlic Parm
+          <input type="radio" name="crust-type" value="stuffed">
+        </label>
+
+        <label>None!
+          <input type="radio" name="crust-type" value="deep-dish">
+        </label>
+
+        <p>How much sauce?</p>
+        <select class="sauce-amount">
+          <option value="reg">Regular</option>
+          <option value="light">Just a bit</option>
+          <option value="heavy">A lot of sauce please!</option>
+
+        </select>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Toppings</legend>
+        <h2>The fun part: Toppings!</h2>
+        <p>The best part about pizzas! Besides the cheese what else do you like on your pie?</p>
+
+        <div class="toppings-column-1">
+          <label>Pepperoni
+            <input type="checkbox" name="topping" value="pepperoni">
+          </label>
+
+          <label>Sausage
+            <input type="checkbox" name="topping" value="sausage">
+          </label>
+
+          <label>Mushroom
+            <input type="checkbox" name="topping" value="mushroom">
+          </label>
+
+          <label>Bell pepper
+            <input type="checkbox" name="topping" value="bell-pepper">
+          </label>
+        </div>
+
+        <div class="toppings-column-2">
+          <label>Onion
+            <input type="checkbox" name="topping" value="onion">
+          </label>
+
+          <label>Spinach
+            <input type="checkbox" name="topping" value="spinach">
+          </label>
+
+          <label>Olives
+            <input type="checkbox" name="topping" value="olives">
+          </label>
+
+          <label>Chicken
+            <input type="checkbox" name="topping" value="chicken">
+          </label>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Specialty Pies</legend>
+        <label>What else do you do to make your pizza special?</label>
+        <textarea name="name" rows="8" cols="80"></textarea>
+      </fieldset>
+
+      <p>Thanks for sharing your favorite pizza! Share it with the world!</p>
+      <input type="submit" value="Share!">
+
+    </form>
+  </body>
+</html>
